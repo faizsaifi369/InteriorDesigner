@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+body,html{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 14vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 8px 1px rgb(169, 168, 168);
+    position: fixed;
+}
+#fakeheader{
+    height: 14vh;
+    width: 100vw;
+}
+#logo{
+    height: 10vh;
+    width: 11vw;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 3.2vh;
+    border: 5px double white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+.headerbtns{
+    height: 7vh;
+    width: 8vw;
+    font-size: 2.7vh;
+    background-color: white;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid  rgb(169, 168, 168);
+    &:hover{
+        color: white;
+        background-color: black;
+        border: 5px double white;
+        border-radius: 5px;
+    }
+}
+#firstPageInfo{
+    font-size: 50px; 
+    text-align: start;
+}
+.pages{
+    height: 86vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#frontPageImage{
+    height: 430px;
+    width: 800px;
+    background-image: url('images/livingroom.jpg');
+    background-size:700px 430px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    border: 7px double black;
+}
+#secondpage{
+    height: 86vh;
+    background-color:silver;
+    background-image: linear-gradient(rgb(215, 215, 215),white,white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    height: 45vh;
+    width: 35vw;
+    background-image: linear-gradient(white,snow,rgb(175, 247, 251));
+    border-radius: 10px;
+    border: 2px solid rgb(202, 202, 202);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#secondPageInfo{
+    font-size: 40px; 
+    text-align: start; 
+    font-weight: lighter; 
+    text-decoration: underline;
+}
+.secondpageItems{
+    height: 150px;
+    width: 160px;
+    background-color: red;
+    margin: 7px;
+}
+#secondpageImage{
+    height: 500px;
+    width: 600px;
+    background-image: url('images/livingroom3.webp');
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 5px solid snow;
+}
+#thirdHead{
+    height: 10vh; 
+    width: 100vw; 
+    font-size: 45px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right,white,burlywood,white);
+}
+.SpecializedDiv{
+    height: 35vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.SpecializedItems{
+    height: 31vh;
+    width: 22vw;
+    background-color: gainsboro;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+hr{ height: 1.2px;
+    width: 35vw;
+    background-color: black;
+    border: none;
+}
+.SpecializedItems2{
+    height: 31vh;
+    width: 15vw;
+    background-color: gainsboro;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Specializationheader{
+    height:7vh; 
+    width:100vw; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size:35px; 
+    gap: 15px;
+}
+footer{
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white; 
+    font-size:35px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:550px) {
+    header{
+        height: 14vh;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        box-shadow: 1px 1px 8px 1px rgb(169, 168, 168);
+        position: fixed;
+    }
+    #fakeheader{
+        height: 14vh;
+        width: 100vw;
+    }
+    #logo{
+        height: 8vh;
+        width: 35vw;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-size: 2.4vh;
+        border: 5px double white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .headerbtns{
+        height: 6vh;
+        width: 32vw;
+        font-size: 2.7vh;
+        background-color: white;
+        margin: 1.5vh;
+        margin-left:11.5vw;
+        border: none;
+        border-radius: 5px;
+        border: 1px solid  rgb(169, 168, 168);
+        &:hover{
+            color: white;
+            background-color: black;
+            border: 5px double white;
+            border-radius: 5px;
+        }
+    }
+    .pages{
+        height: 62vh;
+        background-color: white;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        height: 25vh;
+        width: 90vw;
+        background-image: linear-gradient(white,snow,rgb(175, 247, 251));
+        border-radius: 10px;
+        border: 2px solid rgb(202, 202, 202);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        font-size: 11px;
+    } 
+    #firstPageInfo{
+        font-size: 25px; 
+        text-align: start;
+    }       
+    #frontPageImage{
+        height: 27vh;
+        width: 95vw;
+        background-image: url('images/livingroom.jpg');
+        background-size:87vw 26.99vh; 
+        background-repeat: no-repeat; 
+        background-position: center;
+        border: 5px double black;
+        margin: 5px;
+    }  
+    #secondpage{
+        height: 70vh;
+        background-image: linear-gradient(rgb(215, 215, 215),white,white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #secondPageInfo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px; 
+        text-align: start; 
+        font-weight: lighter; 
+        text-decoration: underline;
+    }    
+    .secondpageItems{
+        height: 90px;
+        width: 100px;
+        background-color: red;
+        margin: 7px;
+        margin-left: 9px;
+    }
+    #secondpageImage{
+        height: 30vh;
+        width: 90vw;
+        background-image: url('images/livingroom3.webp');
+        background-size:cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border: 5px solid snow;
+    } 
+    #thirdHead{
+        height: 7vh; 
+        width: 100vw; 
+        font-size: 28px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        background-image: linear-gradient(to right,white,burlywood,white);
+    }    
+    .Specializationheader{
+        height:7vh; 
+        width:100vw; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        font-size:25px; 
+        gap: 15px;
+    }
+    #firstSpecializedDiv{
+        height: 35vh;
+    }
+    .SpecializedDiv{
+        height: 60vh;
+        width: 100vw;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .SpecializedItems{
+        height: 14vh;
+        width: 45vw;
+        background-color: gainsboro;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    hr{ height: 1.2px;
+        width: 21vw;
+        background-color: black;
+        border: none;
+    } 
+    .SpecializedItems2{
+        height: 18vh;
+        width: 40vw;
+        background-color: gainsboro;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    footer{
+        font-size:30px; 
+        display: flex;
+        flex-direction: column; 
+    }    
+}
