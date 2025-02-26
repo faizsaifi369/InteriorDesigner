@@ -13,7 +13,7 @@ header{
     width: 100vw;
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 8px 1px rgb(169, 168, 168);
     position: fixed;
@@ -35,6 +35,17 @@ header{
     align-items: center;
     text-align: center;
     font-weight: bold;
+    margin-right: 130px;
+}
+#morebtn{
+    display:none;
+}
+.more{
+    height: 4px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 1px;
+    margin-top: 8px;
 }
 .headerbtns{
     height: 7vh;
@@ -54,7 +65,7 @@ header{
 }
 #firstPageInfo{
     font-size: 50px; 
-    text-align: start;
+    text-align: center;
 }
 .pages{
     height: 86vh;
@@ -90,18 +101,26 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 5px rgb(205, 205, 205);
 }
 #secondPageInfo{
+    width: 100%;
     font-size: 40px; 
     text-align: start; 
     font-weight: lighter; 
     text-decoration: underline;
+    display: flex;
+    justify-content: center;
 }
 .secondpageItems{
-    height: 150px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     background-color: red;
     margin: 7px;
+    border-radius: 5px;
 }
 #secondpageImage{
     height: 500px;
@@ -140,6 +159,10 @@ header{
     margin: 5px;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
 }
 hr{ height: 1.2px;
     width: 35vw;
@@ -153,6 +176,10 @@ hr{ height: 1.2px;
     margin: 10px;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
 }
 .Specializationheader{
     height:7vh; 
@@ -175,7 +202,8 @@ footer{
 }
 @media screen and (max-width:550px) {
     header{
-        height: 14vh;
+        height: 11.5vh;
+        width: 100vw;
         background-color: white;
         display: flex;
         flex-wrap: wrap;
@@ -185,12 +213,12 @@ footer{
         position: fixed;
     }
     #fakeheader{
-        height: 14vh;
+        height: 11.5vh;
         width: 100vw;
     }
     #logo{
         height: 8vh;
-        width: 35vw;
+        width: 36vw;
         color: white;
         background-color: black;
         border-radius: 5px;
@@ -201,6 +229,26 @@ footer{
         align-items: center;
         font-weight: bold;
         margin: 5px;
+    }
+    #morebtn{
+        height: 50px; 
+        width: 55px; 
+        display: flex; 
+        flex-direction: column;
+        background-color:white; 
+        margin-left:100px;
+        border: none;
+    }
+    .more{
+        height: 4px;
+        width: 50px;
+        border-radius: 5px;
+        margin: 1px;
+        margin-top: 8px;
+    }    
+    #headerbtn{
+        height: 17vh;
+        background-color: white;
     }
     .headerbtns{
         height: 6vh;
@@ -271,11 +319,15 @@ footer{
         text-decoration: underline;
     }    
     .secondpageItems{
-        height: 90px;
-        width: 100px;
+        height: 95px;
+        width: 95px;
         background-color: red;
         margin: 7px;
         margin-left: 9px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        border: 1px solid white;
+        box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
     }
     #secondpageImage{
         height: 30vh;
@@ -287,6 +339,9 @@ footer{
         border-top-left-radius: 30%;
         border-bottom-right-radius: 30%;
         border: 5px solid snow;
+        box-sizing: border-box;
+        border: 1px solid white;
+        box-shadow: 1px 1px 7px 2px rgb(166, 166, 166);
     } 
     #thirdHead{
         height: 7vh; 
@@ -327,6 +382,10 @@ footer{
         margin: 5px;
         background-repeat: no-repeat;
         background-position: center;
+        border-radius: 5px;
+        box-sizing: border-box;
+        border: 1px solid white;
+        box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
     }
     hr{ height: 1.2px;
         width: 21vw;
@@ -340,6 +399,10 @@ footer{
         margin: 5px;
         background-repeat: no-repeat;
         background-position: center;
+        border-radius: 5px;
+        box-sizing: border-box;
+        border: 1px solid white;
+        box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
     }
     footer{
         font-size:30px; 
