@@ -7,6 +7,8 @@
 body,html{
     margin: 0%;
     padding: 0%;
+    scrollbar-width:none;
+    scroll-behavior: smooth;
 }
 header{
     height: 14vh;
@@ -119,16 +121,15 @@ header{
     justify-content: center;
 }
 .secondpageItems{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    height: 160px;
+    width: 155px;
     margin: 7px;
     border-radius: 5px;
 }
 #secondpageImage{
-    height: 500px;
+    height: 400px;
     width: 600px;
-    background-image: url('images/livingroom3.webp');
+    background-image: url('images/frontpage.webp');
     background-size:cover; 
     background-repeat: no-repeat; 
     background-position: center;
@@ -155,6 +156,16 @@ header{
     align-items: center;
     gap: 5px;
 }
+.MKdiv{
+    height: 95vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .SpecializedItems{
     height: 31vh;
     width: 22vw;
@@ -176,6 +187,19 @@ hr{ height: 1.2px;
     height: 31vh;
     width: 15vw;
     background-color: gainsboro;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
+}
+.SpecializedItems3{
+    height: 27vh;
+    width: 20vw;
+    background-color: gainsboro;
+    background-size:cover;
     margin: 10px;
     background-repeat: no-repeat;
     background-position: center;
@@ -351,7 +375,7 @@ footer{
     #secondpageImage{
         height: 30vh;
         width: 90vw;
-        background-image: url('images/livingroom3.webp');
+        background-image: url('images/frontpage.webp');
         background-size:cover; 
         background-repeat: no-repeat; 
         background-position: center;
@@ -423,6 +447,29 @@ footer{
         border: 1px solid white;
         box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
     }
+    .SpecializedItems3{
+        height: 16vh;
+        width: 42vw;
+        background-color: gainsboro;
+        background-size:cover;
+        margin: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border: 1px solid white;
+        box-shadow: 1px 1px 5px 2px rgb(166, 166, 166);
+    }  
+    .MKdiv{
+        height: 100vh;
+        width: 100vw;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }      
     footer{
         font-size:30px; 
         display: flex;
