@@ -47,7 +47,7 @@ header{
 }
 .more{
     height: 4px;
-    width: 50px;
+    /* width: 50px; */
     border-radius: 5px;
     margin: 1px;
     margin-top: 8px;
@@ -229,22 +229,22 @@ footer{
 }
 @media screen and (max-width:550px) {
     header{
-        height: 11.5vh;
+        height: 11vh;
         width: 100vw;
         background-color: white;
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content:start;
         align-items: center;
         box-shadow: 1px 1px 8px 1px rgb(169, 168, 168);
         position: fixed;
     }
     #fakeheader{
-        height: 11.5vh;
+        height: 11vh;
         width: 100vw;
     }
     #logo{
-        height: 8vh;
+        height: 6.8vh;
         width: 36vw;
         color: white;
         background-color: black;
@@ -263,15 +263,15 @@ footer{
         display: flex; 
         flex-direction: column;
         background-color:white; 
-        margin-left:100px;
+        margin-left:25px;
+        margin-right:45px;
         border: none;
     }
     .more{
         height: 4px;
-        width: 50px;
         border-radius: 5px;
         margin: 1px;
-        margin-top: 8px;
+        margin-top: 7px;
     }    
     #headerbtn{
         display: none;
